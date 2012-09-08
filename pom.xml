@@ -8,14 +8,7 @@
   
   
 <dependencies>
-    <dependency>
-	    <groupId>gnujaxp</groupId>
-	    <artifactId>gnujaxp</artifactId>
-	    <version>1.0.0</version>
-	    <scope>system</scope>
-	    <systemPath>${basedir}/src/main/resources/lib/gnujaxp.jar</systemPath>
-    </dependency>
-        <dependency>
+     <dependency>
 	    <groupId>iText</groupId>
 	    <artifactId>iText</artifactId>
 	    <version>2.1.5</version>
