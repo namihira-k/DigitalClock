@@ -7,7 +7,7 @@ public class Main {
 	
 	
 	public static void main(final String[] args) {
-		Clock mainframe = new Clock("DigitalClock");
+		ClockMain mainframe = new ClockMain("DigitalClock");
 		Thread thread = new Thread(mainframe);
 		thread.start();	
 	}

@@ -2,9 +2,27 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>jp.namihira</groupId>
   <artifactId>DigiltaClock</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>DigiltaClock</name>
-  <description>DigiltaClock</description>
+  <version>v0.01</version>
+  <name>DigiltalClock</name>
+  <description>DigiltalClock</description>
+  
+<build>
+    <plugins>
+       <plugin>
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-jar-plugin</artifactId>
+       <configuration>
+         <archive>
+         <manifestFile>${basedir}/src/main/resources/META-INF/MANIFEST.MF</manifestFile>
+         <manifest>
+           <addDefaultSpecificationEntries>false</addDefaultSpecificationEntries>
+           <addDefaultImplementationEntries>false</addDefaultImplementationEntries>
+         </manifest>
+         </archive>
+       </configuration>
+     </plugin>
+    </plugins>
+</build>
   
   
 <dependencies>
