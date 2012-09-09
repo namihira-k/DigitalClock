@@ -6,6 +6,22 @@
   <name>DigitalClock</name>
   <description>DigitalClock</description>
   
+  <developers>
+    <developer>
+      <id>namihira</id>
+      <name>Kohsuke Namihira</name>
+      <email>*********@gmail.com</email>
+      <url>http://namihira.hatenablog.com/</url>
+      <organization>RICOH</organization>
+      <organizationUrl>http://www.ricoh.co.jp/</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>+9</timezone>
+    </developer>
+  </developers>  
+  
 <build>
     <plugins>
        <plugin>
