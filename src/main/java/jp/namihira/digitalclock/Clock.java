@@ -19,7 +19,7 @@ import javax.swing.JMenuItem;
 public class Clock implements Runnable {
 	JFrame frame;
 	ClockPanel clockPanel;
-	{
+	
 	JMenuItem itemDailog, itemQuit, itemTwitter, itemGraph;
 	
 	JDialog dailog;
