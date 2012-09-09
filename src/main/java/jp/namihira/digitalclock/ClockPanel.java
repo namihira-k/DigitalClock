@@ -14,13 +14,13 @@ public class ClockPanel extends JPanel {
 	private FontMetrics fontMetrics;
 	private Font font;
 	private Color color;
-	private ClockMain clock;
+	private Clock clock;
 	
 //	private boolean sequenceFlag;
 	
 	private String time;
 	
-	public ClockPanel(ClockMain clock) {
+	public ClockPanel(Clock clock) {
 		font = new Font("Helvetica", Font.BOLD, 50);
 		fontMetrics = getFontMetrics(font);
 		setSize(fontMetrics.stringWidth("00:00:00") + 10, fontMetrics.getHeight() + 10);

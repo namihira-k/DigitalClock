@@ -16,7 +16,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
-public class ClockMain implements Runnable {
+public class Clock implements Runnable {
 	JFrame frame;
 	ClockPanel clockPanel;
 
@@ -46,7 +46,7 @@ public class ClockMain implements Runnable {
     
     MyTwitter twitter;
     
-	ClockMain(String title){
+	Clock(String title){
 		frame = new JFrame(title);
 		clockPanel = new ClockPanel(this);
 		twitter = new MyTwitter(clockPanel);

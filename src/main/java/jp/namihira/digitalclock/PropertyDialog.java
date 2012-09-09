@@ -21,7 +21,7 @@ import javax.swing.JDialog;
 import javax.swing.JLabel;
 
 public class PropertyDialog extends JDialog {
-	ClockMain owner;
+	Clock owner;
 	private JLabel label = new JLabel(" ", JLabel.CENTER);
 	private PropertyButtonPanel buttonPanel = new PropertyButtonPanel(this);
 	private DefaultComboBoxModel model1 = new DefaultComboBoxModel();
@@ -33,7 +33,7 @@ public class PropertyDialog extends JDialog {
 	
 	private JComboBox colorChoice, fontColorChoice;
 	
-	public PropertyDialog(ClockMain owner) {
+	public PropertyDialog(Clock owner) {
 		this.owner = owner;
 		setLocation(100, 100);
 		setResizable(false);
